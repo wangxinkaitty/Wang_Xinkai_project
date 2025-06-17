@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/612f6481-f94e-4a25-9731-22d737f21c91)---
+---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2025-06-14" # Date you first upload your project.
 # Title of your project (we like creative title)
