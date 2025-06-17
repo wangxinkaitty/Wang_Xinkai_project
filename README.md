@@ -8,7 +8,7 @@ title: "This is an example project page which serves as a template"
 names: [Samuel Guay, Pierre Bellec]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/PSY6983-2021/project_template
+github_repo: (https://github.com/wangxinkaitty/Wang_Xinkai_project/tree/main)
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
