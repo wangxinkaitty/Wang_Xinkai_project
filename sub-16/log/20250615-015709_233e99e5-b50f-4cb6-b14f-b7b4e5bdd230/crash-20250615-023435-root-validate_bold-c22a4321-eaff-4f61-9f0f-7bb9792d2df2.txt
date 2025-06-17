@@ -1,0 +1,49 @@
+Node: fmriprep_25_1_wf.sub_16_wf.bold_task_analogy_run_06_wf.bold_native_wf.validate_bold
+Working directory: /tmp/work/fmriprep_25_1_wf/sub_16_wf/bold_task_analogy_run_06_wf/bold_native_wf/validate_bold
+
+Node inputs:
+
+in_file = <undefined>
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nipype/pipeline/plugins/multiproc.py", line 67, in run_node
+    result["result"] = node.run(updatehash=updatehash)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nipype/pipeline/engine/nodes.py", line 525, in run
+    result = self._run_interface(execute=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nipype/pipeline/engine/nodes.py", line 643, in _run_interface
+    return self._run_command(execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nipype/pipeline/engine/nodes.py", line 769, in _run_command
+    raise NodeExecutionError(msg)
+nipype.pipeline.engine.nodes.NodeExecutionError: Exception raised while executing Node validate_bold.
+
+Traceback:
+	Traceback (most recent call last):
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nipype/interfaces/base/core.py", line 401, in run
+	    runtime = self._run_interface(runtime)
+	              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/niworkflows/interfaces/header.py", line 311, in _run_interface
+	    img.to_filename(out_fname)
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/filebasedimages.py", line 308, in to_filename
+	    self.to_file_map(**kwargs)
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/nifti1.py", line 2377, in to_file_map
+	    super().to_file_map(file_map, dtype)
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/analyze.py", line 1003, in to_file_map
+	    data = np.asanyarray(self.dataobj)
+	           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/arrayproxy.py", line 454, in __array__
+	    arr = self._get_scaled(dtype=dtype, slicer=())
+	          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/arrayproxy.py", line 421, in _get_scaled
+	    scaled = apply_read_scaling(self._get_unscaled(slicer=slicer), scl_slope, scl_inter)
+	                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/arrayproxy.py", line 391, in _get_unscaled
+	    return array_from_file(
+	           ^^^^^^^^^^^^^^^^
+	  File "/opt/conda/envs/fmriprep/lib/python3.12/site-packages/nibabel/volumeutils.py", line 474, in array_from_file
+	    raise OSError(
+	OSError: Expected 394567680 bytes, got 143957733 bytes from object
+	 - could the file be damaged?
+
