@@ -19,7 +19,7 @@ tags: [project, github, markdown, brainhack]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://psy6983.brainhackmtl.org/project)."
+summary: "An attempt to analyze Chiang 2020 using only antonym contrary analogies instead of all analogy categories"
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
