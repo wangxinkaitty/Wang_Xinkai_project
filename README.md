@@ -5,7 +5,7 @@ date: "2025-06-14" # Date you first upload your project.
 title: "This is an example project page which serves as a template"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Wang Xinkai]
 
 # Your project GitHub repository URL
 github_repo: (https://github.com/wangxinkaitty/Wang_Xinkai_project/tree/main)
