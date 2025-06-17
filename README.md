@@ -47,10 +47,11 @@ The dataset used for this project is sourced from OpenNeuro and available at (ht
 
 ### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
+Deliverable 1: Preprocessed Data of 16 Subjects
+
+Deliverable 2: Project Code
+
+Deliverable 3: Functionally Connectivity Graph
 
 ## Results
 
