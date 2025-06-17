@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/612f6481-f94e-4a25-9731-22d737f21c91)---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2025-06-14" # Date you first upload your project.
 # Title of your project (we like creative title)
@@ -37,14 +37,13 @@ Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally 
 
 ### Tools
 
-The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+Here are the tools I used:
+
+WSL Docker, Git, Github, Visual Studio Code, Ubuntu, Jupyter Notebook
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
+The dataset used for this project is sourced from OpenNeuro and available [here] (https://openneuro.org/datasets/ds003094/versions/1.0.0)
 
 ### Deliverables
 
