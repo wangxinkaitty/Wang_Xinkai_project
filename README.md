@@ -1,11 +1,11 @@
-Wang_Xinkai_project
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2025-06-14" # Date you first upload your project.
-# Analogical Reasoning in Humans
+date: "2020-05-16" # Date you first upload your project.
+# Title of your project (we like creative title)
+title: "This is an example project page which serves as a template"
 
-# [Wang Xinkai]
-
+# List the names of the collaborators within the [ ]. If alone, simple put your name within []
+names: [Samuel Guay, Pierre Bellec]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/PSY6983-2021/project_template
@@ -98,3 +98,6 @@ Here are other good examples of repositories:
 
 ## Conclusion and acknowledgement
 
+The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+
+You can also make submit your project to neurolibre https://neurolibre.org/. It is a preprint server for interactive data analyses. It is tailored for publishing interactive neuroscience notebooks that can seamlessly integrate data, text, code and figures.The submission instructions can be found here https://docs.neurolibre.org/en/latest/index.html and the jupyter book docs there https://jupyterbook.org/intro.html.
