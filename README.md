@@ -43,7 +43,7 @@ WSL Docker, Git, Github, Visual Studio Code, Ubuntu, Jupyter Notebook
 
 ### Data
 
-The dataset used for this project is sourced from OpenNeuro and available [here] (https://openneuro.org/datasets/ds003094/versions/1.0.0)
+The dataset used for this project is sourced from OpenNeuro and available at (https://openneuro.org/datasets/ds003094/versions/1.0.0). The relevant paper by Chiang et al 2020 is available at (https://reasoninglab.psych.ucla.edu/wp-content/uploads/sites/273/2021/04/005.Chiang_etal.JOCN_.pdf).
 
 ### Deliverables
 
