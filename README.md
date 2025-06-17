@@ -1,11 +1,10 @@
-![image](https://github.com/user-attachments/assets/ecb61c1a-4588-4901-ba53-a542b0aaab4d)# Wang_Xinkai_project
+Wang_Xinkai_project
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2025-06-14" # Date you first upload your project.
 # Analogical Reasoning in Humans
-title: "This is an example project page which serves as a template"
 
-# List the names of the collaborators within the [ ]. If alone, simple put your name within []
+# [Wang Xinkai]
 
 
 # Your project GitHub repository URL
